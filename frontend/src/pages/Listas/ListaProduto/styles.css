@@ -1,0 +1,11 @@
+#lista-produto {
+  margin: 0 auto;
+  border-radius: 0.3em;
+  box-shadow: .05em .05em 0.3em var(--color-text-title);
+  min-height: 23em;
+  width: 60em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 2%;
+  text-align: left;
+}

@@ -1,0 +1,79 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5em;
+  background: var(--color-input-background);
+  padding: 2em;
+  justify-items: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: var(--color-primary);
+  color: var(--color-text-in-primary);
+  font-size: 1.8em;
+  border-radius: 0.3em;
+  box-shadow: .05em .05em 0.3em var(--color-text-title);
+  padding: 6%;
+  margin-bottom: 40px;
+  text-align: left;
+  min-height: 2em;
+}
+
+.card .title {
+  padding: 10px;
+  margin-left: 0.2em;
+}
+
+.card-icon {
+  text-align: right;
+}
+
+.card-icon img {
+  height: 3em;
+  width: auto;
+  margin-right: 0.2em;
+}
+
+.content-title {
+  display: flex;
+}
+
+.content-title img {
+  height: 1.5em;
+  width: auto;
+  padding: 10px;
+  box-shadow: .08em .08em 0.3em var(--color-primary);
+}
+
+.content-title h1 {
+  color: var(--color-primary);
+  font-size: 1.2em;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.card-content {
+  padding: 20px;
+  border-radius: 0.3em;
+  box-shadow: .05em .05em 0.5em var(--color-text-title);
+  min-height: 18em;
+}
+
+.card-text {
+  color: var(--color-text-title);
+  font-size: .8em;
+  margin-top: 20px;
+}
+
+.duas-colunas {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.tres-colunas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5em;
+}
